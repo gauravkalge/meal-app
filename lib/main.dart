@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             .copyWith(secondary: Colors.amber),
       ),
       // home: CategoriesScreen(),
-      initialRoute: '/', // default is '/'
+      initialRoute: '/', 
       routes: {
         '/': (ctx) => TabsScreen(),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
