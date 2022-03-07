@@ -7,7 +7,7 @@ import './screens/filters_screen.dart';
 import './screens/categories_screen.dart';
 
 void main() => runApp(MyApp());
-
+// meal App
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
